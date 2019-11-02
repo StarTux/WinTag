@@ -1,0 +1,13 @@
+Radius: 100
+GraceTime: 3
+GameTime: 60
+messages:
+  Prefix: '&f[&3WinTag&f] '
+  YouAreIt: '&bYou are it!'
+  SomeoneIsIt: '&b{player} is it!'
+  GameStart: '&b{player} started a game of tag!'
+  GameStop: '&bGame over. {player} lost.'
+  YouLost: '&bYou lost the game!'
+  AlreadyRunning: '&cA game is already running!'
+  NoGameRunning: '&cThere is no game running!'
+  ConfigReloaded: '&bThe configuration has been reloaded.'

@@ -1,0 +1,19 @@
+main: com.winthier.tag.WinTagPlugin
+name: WinTag
+version: 0.1
+api-version: 1.13
+description: WinTag Plugin
+author: StarTux
+website: https://cavetale.com
+depend: []
+softdepend: []
+commands:
+  wintag:
+    aliases: [tag]
+    description: Tag Command
+    permission: wintag.wintag
+    usage: /<command>
+permissions:
+  wintag.wintag:
+    description: Use /wintag
+    default: op
