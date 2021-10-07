@@ -2,6 +2,9 @@ package com.winthier.tag;
 
 import java.util.HashSet;
 import java.util.Set;
+import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.format.NamedTextColor;
+import net.kyori.adventure.title.Title;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
@@ -106,7 +109,7 @@ final class Game {
         }
         for (Player player : hashSet) {
             plugin.getConfiguration().sendMessage(player, string);
-            player.sendTitle("", string);
+            player.showTitle(Title.title(Component.empty(), Component.text(string)));
         }
     }
 

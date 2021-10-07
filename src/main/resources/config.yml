@@ -3,11 +3,11 @@ GraceTime: 3
 GameTime: 60
 messages:
   Prefix: '&f[&3WinTag&f] '
-  YouAreIt: '&bYou are it!'
-  SomeoneIsIt: '&b{player} is it!'
-  GameStart: '&b{player} started a game of tag!'
-  GameStop: '&bGame over. {player} lost.'
-  YouLost: '&bYou lost the game!'
+  YouAreIt: '&aYou are it!'
+  SomeoneIsIt: '&a{player} is it!'
+  GameStart: '&a{player} started a game of tag!'
+  GameStop: '&aGame over. {player} lost.'
+  YouLost: '&aYou lost the game!'
   AlreadyRunning: '&cA game is already running!'
   NoGameRunning: '&cThere is no game running!'
-  ConfigReloaded: '&bThe configuration has been reloaded.'
+  ConfigReloaded: '&aThe configuration has been reloaded.'
