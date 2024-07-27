@@ -1,7 +1,7 @@
 main: com.winthier.tag.WinTagPlugin
 name: WinTag
 version: 0.1
-api-version: 1.13
+api-version: '1.21'
 description: WinTag Plugin
 author: StarTux
 website: https://cavetale.com
